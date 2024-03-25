@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Visual Studio Integration",
+	"Description": "Allows access to source code in Visual Studio.",
+	"Category": "Programming",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "https://epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"SupportedPrograms": [
+		"UnrealFrontend",
+		"UnrealInsights"
+	],
+	"Modules": [
+		{
+			"Name": "VisualStudioSourceCodeAccess",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"ProgramAllowList": [
+				"UnrealFrontend",
+				"UnrealInsights"
+			]
+		}
+	]
+}
