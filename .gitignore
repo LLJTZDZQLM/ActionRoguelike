@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# 忽略所有uasset文件
+*.uasset
+
+# 忽略Content文件夹中的所有内容
+Content/*
